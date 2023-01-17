@@ -4,20 +4,17 @@
   @media only screen and (max-width: 800px) {
     .carrusel {
       display: none;
-    }
-  }
+    }  
+   
+}
 
+@media only screen and (min-width: 800px) {
+  .notCarrusel {
+    display: none;
+  }  
  
-    .notCarrusel {
-      display: none;
-    }
- 
+}
 
-  @media only screen and (min-width: 800px) {
-    .notCarrusel {
-      display: block;
-    }
-  }
 
 /* Style the tab */
 .tab {
