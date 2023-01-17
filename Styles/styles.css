@@ -15,6 +15,9 @@
  
 }
 
+p{
+  text-align: justify;
+}
 
 /* Style the tab */
 .tab {
@@ -43,13 +46,13 @@
 }
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #0d6efd;
-  color: rgb(255, 255, 255);
+  background-color: #D1E7DD;
+  color: #212529;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #0d6efd;
+  background-color: #198754;
   color: rgb(255, 255, 255);
 }
 
