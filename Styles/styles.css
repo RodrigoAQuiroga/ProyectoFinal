@@ -11,13 +11,15 @@
 @media only screen and (min-width: 800px) {
   .notCarrusel {
     display: none;
-  }  
- 
+  }
+
 }
 
 p{
-  text-align: justify;
+  text-align: justify;  
 }
+
+
 
 /* Style the tab */
 .tab {
