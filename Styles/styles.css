@@ -1,0 +1,86 @@
+
+
+
+  @media only screen and (max-width: 800px) {
+    .carrusel {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .notCarrusel {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .notCarrusel {
+      display: block;
+    }
+  }
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+#i{
+  float: right;
+  color: black;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #0d6efd;
+  color: rgb(255, 255, 255);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #0d6efd;
+  color: rgb(255, 255, 255);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+h1{
+  padding: 15px;
+}
+
+h2{
+  padding: 15px;
+}
+h3{
+  padding: 15px;
+}
+h4{
+  padding: 15px;
+}
+summary{
+  padding: 15px;
+}
+
+.btn-success{
+  padding: 15px;
+}
