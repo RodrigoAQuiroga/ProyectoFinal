@@ -81,6 +81,7 @@ h4{
 }
 summary{
   padding: 15px;
+  list-style-type:none;
 }
 
 .btn-success{
