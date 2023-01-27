@@ -86,3 +86,8 @@ summary{
 .btn-success{
   padding: 15px;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
