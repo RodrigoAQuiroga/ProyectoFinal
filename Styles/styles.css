@@ -94,3 +94,15 @@ img {
   max-width: 100%;
   border-radius: 5px;  
 }
+
+/*borders*/
+.resumen{
+  border-right: solid black 1px;
+  
+}
+@media only screen and (max-width: 415px) {
+  .resumen {
+    border-right: none;
+    border-bottom: solid black 1px;
+  }
+}
